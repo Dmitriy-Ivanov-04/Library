@@ -1,0 +1,119 @@
+body {
+  background-color: #C0C0C0;
+}
+
+form {
+	padding: 10px;
+}
+
+input[type="text"], [type="number"]{
+	border-width: 0;
+	width: 200px;
+	padding: 7px;
+	color: #696969;
+	font-size: 16px;
+	background: #ffffff;
+}
+
+input::placeholder {
+	font-size: 16px;	
+}
+
+.divText{
+	background: #696969;
+	width: 200px;
+	height: auto;
+	padding: 7px;
+	font-size: 16px;
+	color: #696969;
+	font: 12pt sans-serif; 
+}
+
+[contentEditable=true]:empty:not(:focus):before{
+    content:attr(data-text);
+	font-size: 16px;
+	color: #696969;
+}
+
+input[type="button"] {
+	background-color: #708090;
+	border: none;
+	color: white;
+	padding: 7px 30px;
+	text-align: center;
+	font-size: 16px;
+}
+
+table {
+    table-layout: fixed;
+   }
+   
+.idTd{
+	background: #ffffff;
+	width: 50px;
+	height: auto;
+	padding: 7px;
+	font-size: 16px;
+	color: #757575;
+	font: 12pt sans-serif; 
+}
+
+.titleTd{
+	background: #ffffff;
+	height: auto;
+	width: 200px;
+	padding: 7px;
+	font-size: 16px;
+	color: #757575;
+	font: 12pt sans-serif;
+	word-wrap: break-word;
+
+}
+
+.yearTd{
+	background: #ffffff;
+	width: 150px;
+	height: auto;
+	padding: 7px;
+	font-size: 16px;
+	color: #757575;
+	font: 12pt sans-serif; 
+	word-wrap: break-word;
+	
+}
+
+.authorIdTd{
+	background: #ffffff;
+	width: 150px;
+	height: auto;
+	padding: 7px;
+	font-size: 16px;
+	color: #757575;
+	font: 12pt sans-serif; 
+}
+
+.nameAuthorTd{
+	background: #ffffff;
+	width: 150px;
+	height: auto;
+	padding: 7px;
+	font-size: 16px;
+	color: #757575;
+	font: 12pt sans-serif; 
+}
+
+.countTd{
+	background: #ffffff;
+	width: 50px;
+	height: auto;
+	padding: 7px;
+	font-size: 16px;
+	color: #757575;
+	font: 12pt sans-serif; 
+}
+
+.warning{
+	font-size: 16px;
+	color: red;
+	font: 12pt sans-serif;
+}

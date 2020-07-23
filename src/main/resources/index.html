@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Lab_8</title>
+	<script src = "script.js"></script>
+	<link rel = "stylesheet" href = "style.css">
+</head>
+
+<body>
+	<fieldset>
+	<legend>Print</legend>
+		<form>
+			<input type="button" align="center" id="printBase" value="Print Base" onClick="requestAJAX(id)">
+			<p><table id="out2">
+			<tr></tr>
+			</table></p>
+		</form>
+		
+		<form>
+			<input type="button" id="printBaser" value="Print Baser" onClick="requestAJAX(id)">
+			<p><table id="out3">
+			<tr></tr>
+			</table></p>
+		</form>
+	</fieldset>
+	
+	
+	<fieldset>
+	<legend>Change Database</legend>
+		<form>
+			<p><input type="text" maxlength="256" placeholder="Book name" id="bookName"></p>
+			<p><input type="number" placeholder="Year" id="year"></p>
+			<p><input type="text" maxlength="256" placeholder="Name author" id="nameAuthor"></p>
+			<input type="button" id="addBook" value="Add Book" onClick="requestAJAX(id)">
+		</form>
+		
+		<form>
+			<p><input type="number" placeholder="Enter number book" id="idBook"></p>
+			<p><input type="text" maxlength="256" placeholder="Book name" id="bookName1"></p>
+			<input type="button" id="changeTitleBook" value="changeTitleBook" onClick="requestAJAX(id)">
+		</form>
+		
+		<form>
+			<p><input type="number" placeholder="Book delete" id="idBook1"></p>
+			<input type="button" id="deleteBook" value="Delete book" onClick="requestAJAX(id)">
+		</form>
+	</fieldset>
+	
+	<fieldset>
+	<legend>Print Tables</legend>
+		<form>
+			<p><input type="number" placeholder="Author id" id="idAuthor"></p>
+			<input type="button" id="printBookAuthor" value="printBookAuthor" onClick="requestAJAX(id)">
+			<p><table id="out">
+			<tr></tr>
+			</table></p>
+		</form>
+		
+		<form>
+			<input type="button" id="Popular" value="Popular" onClick="requestAJAX(id)">
+			<p><table id="out1">
+			<tr></tr>
+			</table></p>
+		</form>
+	</fieldset>
+	
+	
+</body>
+</html>
